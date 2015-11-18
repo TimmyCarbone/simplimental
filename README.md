@@ -1,14 +1,15 @@
 # simplimental
-Simple sentiment analysis processor for texts
+Simple sentiment analysis processor for texts based on the [AFINN-111](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010) word list
 
 Inspired by the Node.js version : [Sentimental](https://github.com/thinkroth/Sentimental)
 
-## Usage
+## Installation
 
 ```
 pip install simplimental
 ```
-    
+
+### Usage
 ```python
 import simplimental
     
