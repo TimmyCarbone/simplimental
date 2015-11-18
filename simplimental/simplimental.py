@@ -6,7 +6,7 @@ __all__ = ["Simplimental"]
 class Simplimental:
 	def __init__(self, text="This is not a bad idea"):
 		self.text = text
-		with open('simplimental/afinn.json') as data_file:    
+		with open('simplimental/data/afinn.json') as data_file:    
 		    self.dictionary = json.load(data_file)
 
 		no_punctunation = re.sub(r"[^a-zA-Z ]+", " ", self.text)
