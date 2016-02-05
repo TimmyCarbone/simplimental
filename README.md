@@ -9,7 +9,7 @@ Inspired by the Node.js version : [Sentimental](https://github.com/thinkroth/Sen
 pip install simplimental
 ```
 
-### Usage
+## Usage
 ```python
 import simplimental
     
